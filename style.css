@@ -31,6 +31,14 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    width: 1rem;
+   background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+   background: var(--black);
+}
+
+.header{
+    
 }
 
