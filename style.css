@@ -55,3 +55,19 @@ html::-webkit-scrollbar-thumb {
     font-weight: bolder;
     color: var(--black);
 }
+
+.header .header-1 .logo i{
+    color: var(--green);          
+}   
+
+.header .header-1 .search-form{
+    width: 50rem;
+    height: 5rem;
+    border:var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
