@@ -80,3 +80,37 @@ html::-webkit-scrollbar-thumb {
     color: var(--black);
 
 }
+.header .header-1 .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+}
+
+.header .header-1 .search-form label:hover{
+    color: var(--green);
+}
+.header .header-1 .icons div{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .header-1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .header-1 .icons div:hover{
+    color:#219150;
+}
+
+.header .header-1 .icons a:hover{
+    color:#219150;
+}
+
+#search-btn{
+    display: none;
+
+}
+
