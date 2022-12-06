@@ -207,7 +207,7 @@ html::-webkit-scrollbar-thumb {
     margin: .7rem 0;
     font-size: 1.6rem;
     border: var(--border);
-    border-radius: 5rem;
+    border-radius: 1rem;
     padding: 1rem 1.2rem;
     color: var(--black);
     text-transform: none;
