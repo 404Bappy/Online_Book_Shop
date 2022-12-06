@@ -142,6 +142,23 @@ html::-webkit-scrollbar-thumb {
     background: var(--dark-color);
 }
 
+.bottom-navbar{
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -175,6 +192,9 @@ html::-webkit-scrollbar-thumb {
         top: -115%; right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
+    }
+    .header .header-1 .search-form.active{
+        top: 115%;
     }
 }
 
