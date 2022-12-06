@@ -133,7 +133,10 @@ html::-webkit-scrollbar-thumb {
     font-size: 1.7rem;
 }
 
-.header .header-2 .navbar a:hover{
+.header .header-2 .navbar a:hover {
     background: var(--dark-color);
 }
 
+body {
+    height: 300rem;
+}
