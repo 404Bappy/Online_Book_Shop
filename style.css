@@ -142,6 +142,52 @@ html::-webkit-scrollbar-thumb {
     background: var(--dark-color);
 }
 
-body {
-    height: 300rem;
+
+
+
+
+                  /* media queries */
+
+@media (max-width:991px){
+    html {
+        font-size: 55%
+    }
+
+    .header .header-1{
+        padding: 2rem;
+    }
 }
+
+@media (max-width:768px){
+    .header .header-2{
+        display: none;
+    }
+
+    #search-btn{
+        display: inline-block;
+    }
+    .header .header-1{
+      box-shadow: var(--box-shadow);
+      position: relative;  
+    }
+    .header .header-1 .search-form{
+        position: absolute;
+        top: -115%; right: 2rem;
+        width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+}
+
+@media (max-width:450px){
+    html {
+        font-size: 50%
+    }
+}
+
+
+
+
+
+
+
+
