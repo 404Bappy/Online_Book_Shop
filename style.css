@@ -51,7 +51,12 @@ html::-webkit-scrollbar-thumb {
     background: var(--green);
     font-size: 1.7rem;
     cursor: pointer;
+    font-weight: 500;
 
+}
+
+.btn:hover {
+    background: var(--dark-color);
 }
 
 .header .header-1 {
@@ -238,6 +243,48 @@ html::-webkit-scrollbar-thumb {
     color: var(--light-color);
     cursor: pointer;
 }
+
+.login-form-container form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.login-form-container form p {
+    padding-top: .8rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.login-form-container form p a {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.login-form-container #close-login-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
