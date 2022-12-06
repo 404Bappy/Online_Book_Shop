@@ -132,9 +132,12 @@ html::-webkit-scrollbar-thumb {
     padding: 1.2rem;
     font-size: 1.7rem;
 }
-.header .header-2.active{
+
+.header .header-2.active {
     position: fixed;
-    top: o; left: 0; right: 0;
+    top: o;
+    left: 0;
+    right: 0;
     z-index: 1000;
 }
 
@@ -142,12 +145,24 @@ html::-webkit-scrollbar-thumb {
     background: var(--dark-color);
 }
 
-.bottom-navbar{
+.bottom-navbar {
     text-align: center;
     background: var(--green);
     position: fixed;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
+}
+
+.bottom-navbar a {
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.bottom-navbar a:hover {
+    background: var(--dark-color);
 }
 
 
@@ -163,51 +178,60 @@ html::-webkit-scrollbar-thumb {
 
 
 
-                  /* media queries */
+/* media queries */
 
-@media (max-width:991px){
+@media (max-width:991px) {
     html {
         font-size: 55%
     }
 
-    .header .header-1{
+    .header .header-1 {
         padding: 2rem;
     }
 }
 
-@media (max-width:768px){
-    .header .header-2{
+@media (max-width:768px) {
+
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        padding-bottom: 6rem;
+    }
+
+    .header .header-2 {
         display: none;
     }
 
-    #search-btn{
+    .bottom-navbar {
+        display: block;
+    }
+
+    #search-btn {
         display: inline-block;
     }
-    .header .header-1{
-      box-shadow: var(--box-shadow);
-      position: relative;  
+
+    .header .header-1 {
+        box-shadow: var(--box-shadow);
+        position: relative;
     }
-    .header .header-1 .search-form{
+
+    .header .header-1 .search-form {
         position: absolute;
-        top: -115%; right: 2rem;
+        top: -115%;
+        right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
     }
-    .header .header-1 .search-form.active{
+
+    .header .header-1 .search-form.active {
         top: 115%;
     }
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
     html {
         font-size: 50%
     }
 }
-
-
-
-
-
-
-
-
