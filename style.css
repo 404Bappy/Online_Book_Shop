@@ -196,6 +196,11 @@ html::-webkit-scrollbar-thumb {
 
 }
 
+.login-form-container.active{
+    right: 0;
+}
+
+
 .login-form-container form {
     background: #fff;
     border: var(--border);
