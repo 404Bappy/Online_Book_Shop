@@ -4,6 +4,8 @@ document.querySelector('#search-btn').onclick = () => {
     searchform.classList.toggle('active');
 }
 
+let loginForm = document.querySelector('.')
+
 window.onscroll = () => {
 
     searchform.classList.remove('active');
