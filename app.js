@@ -32,3 +32,26 @@ window.onload = () => {
         document.querySelector('.header .header-2').classList.add('active');
     }
 }
+
+var swiper = new Swiper(".books-slider", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+        },
+    },
+});
