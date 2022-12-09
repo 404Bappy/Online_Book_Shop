@@ -374,9 +374,10 @@ section {
     width: 25rem;
     margin: 2rem 0;
     position: relative;
-    overflow: hidden;
     border: var(--border);
+    overflow: hidden;
     text-align: center;
+   
 }
 
 .featured .featured-slider .box:hover {
